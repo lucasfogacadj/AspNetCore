@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/lucasfogaca/testes/core/GameTop.Lib/GameTop.Lib.csproj": {}
+  },
+  "projects": {
+    "/Users/lucasfogaca/testes/core/GameTop.Lib/GameTop.Lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lucasfogaca/testes/core/GameTop.Lib/GameTop.Lib.csproj",
+        "projectName": "GameTop.Lib",
+        "projectPath": "/Users/lucasfogaca/testes/core/GameTop.Lib/GameTop.Lib.csproj",
+        "packagesPath": "/Users/lucasfogaca/.nuget/packages/",
+        "outputPath": "/Users/lucasfogaca/testes/core/GameTop.Lib/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/lucasfogaca/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
